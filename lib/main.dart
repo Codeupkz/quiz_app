@@ -89,8 +89,8 @@ class _QuizViewState extends State<QuizView> {
             ),
           ),
         ),
-        //TODO: Add a Row here as your score keeper
-        //
+        //TODO: Row Widget осы дерде құрасыз.
+ 
       ],
     );
   }
