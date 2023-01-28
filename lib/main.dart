@@ -12,7 +12,7 @@ class Quiz extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.yellow[600],
         body: SafeArea(
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 10.0),
@@ -47,7 +47,7 @@ class _QuizViewState extends State<QuizView> {
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 25.0,
-                color: Colors.white,
+                color: Colors.indigo[900],
               ),
             ),
           ),
@@ -57,7 +57,7 @@ class _QuizViewState extends State<QuizView> {
             padding: EdgeInsets.all(15.9),
             child: TextButton(
               style: TextButton.styleFrom(
-                backgroundColor: Colors.green,
+                backgroundColor: Colors.lightGreen[600],
               ),
               onPressed: () {},
               child: Text(
@@ -76,7 +76,7 @@ class _QuizViewState extends State<QuizView> {
             padding: EdgeInsets.all(15.9),
             child: TextButton(
               style: TextButton.styleFrom(
-                backgroundColor: Colors.green,
+                backgroundColor: Colors.redAccent,
               ),
               onPressed: () {},
               child: Text(
