@@ -87,7 +87,7 @@ class _QuizViewState extends State<QuizView> {
             ),
           ),
         ),
-        //TODO: Row Widget осы дерде құрасыз.
+        //TODO: Row Widget осы жерде құрасыз.
       ],
     );
   }
