@@ -11,8 +11,9 @@ class Quiz extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.yellow[600],
+        backgroundColor: Colors.indigo[900],
         body: SafeArea(
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 10.0),
@@ -47,7 +48,7 @@ class _QuizViewState extends State<QuizView> {
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 25.0,
-                color: Colors.indigo[900],
+                color: Colors.yellow[600],
               ),
             ),
           ),
@@ -90,7 +91,6 @@ class _QuizViewState extends State<QuizView> {
           ),
         ),
         //TODO: Row Widget осы дерде құрасыз.
- 
       ],
     );
   }
