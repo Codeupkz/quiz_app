@@ -6,8 +6,6 @@ void main() {
 }
 
 class Quiz extends StatelessWidget {
-  const Quiz({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -26,7 +24,6 @@ class Quiz extends StatelessWidget {
 }
 
 class QuizView extends StatefulWidget {
-  const QuizView({Key? key}) : super(key: key);
 
   @override
   State<QuizView> createState() => _QuizViewState();
