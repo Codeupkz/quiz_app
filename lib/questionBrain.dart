@@ -7,7 +7,8 @@ class QuestionBrain {
   List<Question>questionList = [
     Question('Қазақ хандығы 1465-1466 жылы құрылған.', true),
     Question('Абылай ханға "Сабалақ" деген атты Төлеби берген.', true),
-    Question('Казах хандығын Қасым сұлтан құрған', false)
+    Question('Казах хандығын Қасым сұлтан құрған', false),
+
   ];
 
   void nextQuestion (){

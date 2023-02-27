@@ -38,12 +38,16 @@ class _QuizViewState extends State<QuizView> {
   void checkAnswer (bool userPickedAnswer){
 
     bool correctAnswer = questionBrain.getCorrectAnswer();
+    print(correctAnswer);
 
     setState(() {
-    if (correctAnswer == false){
+    if (correctAnswer == userPickedAnswer){
       scoreKeeper.add(Icon(Icons.check,color:Colors.lightGreen[600],));
-    }else{
+      print(correctAnswer);
+    }
+    else{
       scoreKeeper.add(Icon(Icons.close,color:Colors.redAccent,));
+      print(correctAnswer);
     }
 
 
